@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AtomTextView">
+        <!--
+        string:文字
+        color:颜色
+        dimension:单位尺寸
+        reference：资源引用
+        -->
+        <attr name="mText" format="string" />
+        <attr name="mTextSize" format="dimension" />
+        <attr name="mTextColor" format="color|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="PedometerView">
+        <attr name="inner_color" format="color|reference" />
+        <attr name="outer_color" format="color|reference" />
+        <attr name="arc_width" format="dimension" />
+        <attr name="pv_textSize" format="dimension" />
+        <attr name="pv_textColor" format="color|reference" />
+        <attr name="pv_text" format="string" />
+        <attr name="pv_max" format="integer" />
+        <attr name="pv_current" format="integer" />
+        <attr name="pv_textStyle" format="enum">
+            <enum name="NORMAL" value="1001" />
+            <enum name="BOLD" value="1002" />
+        </attr>
+        <attr name="pv_typeface" format="enum">
+            <enum name="BITWONDER" value="1003" />
+            <enum name="ORPER" value="1004" />
+            <enum name="VULCAN" value="1005" />
+            <enum name="INFINITY" value="1006" />
+            <enum name="POSEIDON" value="1007" />
+            <enum name="DAYS_LATER" value="1008" />
+            <enum name="DIGIT" value="1009" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PointerPlateView">
+        <attr name="pp_stepText" format="string" />
+        <attr name="pp_unit" format="string" />
+        <attr name="pp_stepTextSize" format="dimension" />
+        <attr name="pp_stepTextColor" format="color|reference" />
+        <attr name="pp_ringColor_1" format="color|reference" />
+        <attr name="pp_ringColor_2" format="color|reference" />
+        <attr name="pp_ringColor_3" format="color|reference" />
+        <attr name="pp_leftTopText" format="string" />
+        <attr name="pp_rightTopText" format="string" />
+        <attr name="pp_leftTopTextSize" format="dimension" />
+        <attr name="pp_rightTopTextSize" format="dimension" />
+        <attr name="pp_leftTopTextColor" format="color|reference" />
+        <attr name="pp_rightTopTextColor" format="color|reference" />
+        <attr name="pp_outRingBackground" format="color|reference" />
+        <attr name="pp_outRingBackgroundWidth" format="dimension" />
+        <!--        这个是刻度表盘每个刻度的宽度-->
+        <attr name="pp_scaleWidth" format="enum">
+            <enum name="BIG" value="101" />
+            <enum name="NORMAL" value="102" />
+            <enum name="SMALL" value="103" />
+        </attr>
+        <!--        这个是刻度表盘圆环宽度-->
+        <attr name="pp_scaleRingWidth" format="dimension" />
+        <!--        字体的类型-->
+        <attr name="pp_typeFace" format="enum">
+            <enum name="BITWONDER" value="104" />
+            <enum name="ORPER" value="105" />
+            <enum name="VULCAN" value="106" />
+            <enum name="INFINITY" value="107" />
+            <enum name="POSEIDON" value="108" />
+            <enum name="DAYS_LATER" value="109" />
+            <enum name="DIGIT" value="110" />
+        </attr>
+        <attr name="pp_textStyle" format="enum">
+            <enum name="NOMAL_TEXT" value="111" />
+            <enum name="BOLD" value="112" />
+        </attr>
+
+    </declare-styleable>
+</resources>

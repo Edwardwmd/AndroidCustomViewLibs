@@ -20,7 +20,7 @@
 
 
 
-![](\atr\indicatorView.gif)
+![](/atr/indicatorView.gif)
 
 
 

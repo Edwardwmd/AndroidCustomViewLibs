@@ -82,4 +82,14 @@
         <attr name="il_originColor" format="color|reference" />
         <attr name="il_changeColor" format="color|reference" />
     </declare-styleable>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cp_unit" format="string" />
+        <attr name="cp_textSize" format="dimension" />
+        <attr name="cp_textColor" format="color|reference" />
+        <attr name="cp_fullColor" format="color|reference" />
+        <attr name="cp_currentColor" format="color|reference" />
+        <attr name="cp_barWidth" format="dimension" />
+        <attr name="cp_maxProgress" format="integer" />
+    </declare-styleable>
 </resources>

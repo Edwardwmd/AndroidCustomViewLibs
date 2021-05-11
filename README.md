@@ -22,6 +22,12 @@
 
 ![](/atr/indicatorView.gif)
 
++ CircularProgressBar
+
+![](/atr/circuleProgressBar.gif)
+
+
+
 
 
 

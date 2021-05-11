@@ -15,6 +15,18 @@
 + PointerPlateView
 
   ![](/atr/scaleview1.gif)
+  
++ IndicatorItemView
+
+
+
+![](\atr\indicatorView.gif)
+
+
+
+
+
+
 
 
 

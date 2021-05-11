@@ -75,6 +75,11 @@
             <enum name="NOMAL_TEXT" value="111" />
             <enum name="BOLD" value="112" />
         </attr>
+    </declare-styleable>
 
+
+    <declare-styleable name="IndicatorItemView">
+        <attr name="il_originColor" format="color|reference" />
+        <attr name="il_changeColor" format="color|reference" />
     </declare-styleable>
 </resources>

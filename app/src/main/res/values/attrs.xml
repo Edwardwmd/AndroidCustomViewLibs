@@ -92,4 +92,10 @@
         <attr name="cp_barWidth" format="dimension" />
         <attr name="cp_maxProgress" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="ShapeView">
+        <attr name="sp_triangleColor" format="color|reference" />
+        <attr name="sp_squareColor" format="color|reference" />
+        <attr name="sp_RoundColor" format="color|reference" />
+    </declare-styleable>
 </resources>

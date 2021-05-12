@@ -98,4 +98,11 @@
         <attr name="sp_squareColor" format="color|reference" />
         <attr name="sp_RoundColor" format="color|reference" />
     </declare-styleable>
+
+    <declare-styleable name="AtomRatingBar">
+        <attr name="rb_currentRatingLevel" format="integer" />
+        <attr name="rb_maxRatingLevel" format="integer" />
+        <attr name="rb_normalRes" format="reference" />
+        <attr name="rb_selectedRes" format="reference" />
+    </declare-styleable>
 </resources>

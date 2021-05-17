@@ -38,7 +38,9 @@
 
 <img src="/atr/ratingbar.gif" style="zoom:50%;" />
 
++ AlphabeticalSearchBar
 
+<img src="/atr/AlphabeticalSearchBar.gif" style="zoom:50%;" />
 
 ###### 待更新。。。。。。
 

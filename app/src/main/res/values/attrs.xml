@@ -105,4 +105,13 @@
         <attr name="rb_normalRes" format="reference" />
         <attr name="rb_selectedRes" format="reference" />
     </declare-styleable>
+    <declare-styleable name="AlphabeticalSearchBar">
+        <attr name="asb_normalTextColor" format="reference|color" />
+        <attr name="asb_selectedColor" format="reference|color" />
+        <attr name="asb_textSize" format="dimension" />
+        <attr name="asb_textStyle" format="enum">
+            <enum name="NORMAL" value="1" />
+            <enum name="BOLD" value="2" />
+        </attr>
+    </declare-styleable>
 </resources>

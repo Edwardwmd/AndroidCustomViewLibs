@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <com.edw.androidcustomviewlibs.widget.AlphabeticalSearchBar
+        android:id="@+id/asbView"
+        app:asb_normalTextColor="@android:color/black"
+        app:asb_selectedColor="@color/orange"
+        app:asb_textSize="15sp"
+        app:asb_textStyle="BOLD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="750dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" />
+
+    <TextView
+        android:id="@+id/selectedLetter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bg_round_shape"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

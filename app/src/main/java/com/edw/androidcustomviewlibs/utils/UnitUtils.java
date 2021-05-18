@@ -53,7 +53,7 @@ public class UnitUtils {
      */
     public static int sp2px(Context mC, int sp) {
         float scale = mC.getResources().getDisplayMetrics().scaledDensity;
-        return (int) (sp / scale + 0.5f);
+        return (int) (sp * scale + 0.5f);
     }
 
     /**
@@ -65,7 +65,7 @@ public class UnitUtils {
      */
     public static int px2sp(Context mC, int px) {
         float scale = mC.getResources().getDisplayMetrics().scaledDensity;
-        return (int) (px * scale + 0.5f);
+        return (int) (px / scale + 0.5f);
     }
 
     /**

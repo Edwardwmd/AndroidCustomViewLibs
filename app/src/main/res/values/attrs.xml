@@ -114,4 +114,11 @@
             <enum name="BOLD" value="2" />
         </attr>
     </declare-styleable>
+
+    <declare-styleable name="TagTextView">
+        <attr name="ttv_textSize" format="dimension" />
+        <attr name="ttv_text" format="string" />
+        <attr name="ttv_textColor" format="color|reference" />
+        <attr name="ttv_tagColor" format="color|reference" />
+    </declare-styleable>
 </resources>

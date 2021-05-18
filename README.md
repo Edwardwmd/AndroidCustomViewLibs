@@ -42,6 +42,10 @@
 
 <img src="/atr/AlphabeticalSearchBar.gif" style="zoom:50%;" />
 
++ TagTextView
+
+<img src="/atr/tagtextview.png" style="zoom:50%;" />
+
 ###### 待更新。。。。。。
 
 
